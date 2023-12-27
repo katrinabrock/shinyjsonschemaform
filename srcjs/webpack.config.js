@@ -1,9 +1,9 @@
 var path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname, 'srcjs', 'json_schema_form.jsx'),
+    entry: path.join(__dirname, '.', 'json_schema_form.jsx'),
     output: {
-        path: path.join(__dirname, 'inst/'),
+        path: path.join(__dirname, '../srcR/inst/'),
         filename: 'json_schema_form.js'
     },
     module: {

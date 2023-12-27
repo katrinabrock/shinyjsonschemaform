@@ -1,5 +1,8 @@
+*.Rproj
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+srcR/*.tar.gz
+srcR/*.Rcheck
 srcjs/node_modules

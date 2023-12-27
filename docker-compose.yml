@@ -1,0 +1,14 @@
+version: '3'
+services:
+  js:
+    image: node:21
+    volumes:
+     - ./srcjs:/opt/srcjs
+     - ./srcR:/opt/srcR
+    command: sleep infinity
+    working_dir: /opt/srcjs
+  r:
+    build: 
+      context: .
+      dockerfile: ./dockerfiles/r.Dockerfile
+    working_dir: /opt/srcR
