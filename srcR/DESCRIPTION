@@ -1,0 +1,16 @@
+Package: shinyjsonschemaform
+Title: Shiny JSON Schema Form
+Version: 0.0.0.9000
+Authors@R: 
+    person("Brock", "", , "kbrock@ab.mpg.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0003-4678-9545"))
+Description: Configures a shiny input based on JSON schema. Wraps
+    react-json-schema-form
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    htmltools,
+    reactR,
+    shiny
