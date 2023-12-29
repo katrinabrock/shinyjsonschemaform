@@ -96,6 +96,5 @@ jsonSchemaFormInput <- function(
     ),
     default,
     configuration
-    ,function(...) htmltools::tags$div(class=c('form-group', 'shiny-input-container'), ...)
   )
 }
